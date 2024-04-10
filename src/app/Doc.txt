@@ -1,0 +1,7 @@
+1. What is Layout? (blog folder)
+2. What is Slug? (blog folder)
+3. Difference between ssr and csr. (contact folder)
+4. Hideration Error and it forms. (contact folder, HyderationTest file, about folder)
+5. Wrapping server side component with a client side component. (clientSideProviderTest file, root layout file)
+6. What is "children" in react. (clientSideProviderTest file)
+7. use of "useRouter" , "usePathname", "useSearchParam". (navigationtest folder)
