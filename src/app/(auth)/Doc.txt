@@ -1,0 +1,1 @@
+we can create a folder named (auth) to group the routes into the one folder. Auth folder does not appear in routing or while navigating through the website if we put into the round brackets.
