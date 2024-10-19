@@ -5,3 +5,4 @@
 5. Wrapping server side component with a client side component. (clientSideProviderTest file, root layout file)
 6. What is "children" in react. (clientSideProviderTest file)
 7. use of "useRouter" , "usePathname", "useSearchParam". (navigationtest folder)
+8. fetching data (axios or fetch) with limit query, caching in next js (blog/page.jsx folder)

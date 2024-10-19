@@ -4,7 +4,7 @@
 //! Example:-
 
 // const wrapperComponent = ({children}) =>{
-//     return <div>{children}</div>;
+//     return <div>{children}</div>;  {/* This will render all the 3 components which is in "wrapperComponent" i.e. "componentOne, componentTwo, componentThree"  */}
 // }
 
 // const anotherComponent = () =>{
@@ -21,7 +21,7 @@
 
 const ClientSideProviderTest = ({ children }) => {
   // here we are wrapping the whole application using this wrapper client component with bg-red (to root layout.js) to check if wrapping the whole server component from client component will convert the server component to client component or not. and the answer is it will remains the server component no matter if you wrap the whole application to client component.
-  return <div className="bg-red-700">{children}</div>;
+  return <div className="bg-red-700">{children}</div>; //! In children we are fetching all the components which are in "ClientSideProviderTest" wrapper component in layout.js file i.e. navbar, {children}, footer
 };
 
 export default ClientSideProviderTest;

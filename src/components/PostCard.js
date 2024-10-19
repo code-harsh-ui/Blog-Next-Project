@@ -15,19 +15,21 @@ const PostCard = ({ data }) => {
               {post.date}
             </h5>
             <div className="flex flex-col justify-center items-center p-4 bg-black/60 absolute bottom-0 w-full font-light z-30">
-              <h1 className="text-xl">{post.title}</h1>
+              <h1 className="text-xl text-center">{post.title}</h1>
               <h2 className="text-center my-2 font-light text-sm">
-                {post.content}
+                {post.body}
               </h2>
               <button className="text-sm hover:underline uppercase">
-                <Link href={"/blog/okay"}>Read More</Link>
+                <Link href={`/blog/${post.id}`}>Read More</Link>
               </button>
             </div>
           </div>
 
           <Image
             className="w-full h-full object-cover transition-all hover:scale-110 duration-300"
-            src={post.image}
+            src={
+              "https://images.unsplash.com/photo-1712007426396-08068359b6c7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
             alt="Blog-Image"
             fill
           />
